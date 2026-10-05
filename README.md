@@ -2,7 +2,7 @@
 
 This is the code for the CSSE4010 model-based design modules. Each module has its own folder with the MATLAB scripts, Simulink models and VHDL from the videos, so you can follow along or try things yourself.
 
-| Module | What it covers | Vivado | Board |
+| Module | Description | Vivado | Board |
 |---|---|---|---|
 | [1: Introduction to HDL Coder](module-1-introduction) | Y = 2X + 5 in hand-written VHDL, Simulink and MATLAB | Yes | No |
 | [2: Four-to-four switch](module-2-four-to-four-switch) | A switch built three ways, then run on the board with FPGA-in-the-loop | Yes | For FPGA-in-the-loop |
@@ -13,7 +13,7 @@ This is the code for the CSSE4010 model-based design modules. Each module has it
 
 ## Setting up
 
-You'll need Vivado and MATLAB. The course uses Vivado 2024.1, which works with MATLAB R2025a, R2025b and R2026a. The models were saved in R2024b, so any of those will open them.
+You'll need Vivado and MATLAB. These modules use Vivado 2024.1, which works with MATLAB R2025a, R2025b and R2026a. The models were saved in R2024b, so any of those will open them.
 
 Install these MATLAB add-ons:
 
@@ -35,6 +35,4 @@ If you have a Nexys4 DDR, the clock, audio and microphone pins are the same, but
 
 ## How the folders are laid out
 
-Change MATLAB's current folder to a module's folder before running anything in it, because the scripts look for their files there. MATLAB and Simulink files sit at the top of each module, and anything for Vivado (hand-written VHDL and constraint files) is in `vivado/src/`. Modules 5 and 6 also have `vivado/create_project.tcl`, which sets up the Vivado project for you.
-
-Only source files are in the repo. HDL Coder's output (`hdl_prj/`, `hdlsrc/`, `work/`), the Simulink cache (`slprj/`) and Vivado projects are all ignored by git. You can delete them whenever you like, and running the scripts again brings them back.
+Change MATLAB's current folder to a module's folder before running anything in it, because the scripts look for their files there. MATLAB and Simulink files sit at the top of each module, and anything for Vivado (hand-written VHDL and constraint files) is in `vivado/src/`.
