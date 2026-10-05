@@ -1,0 +1,59 @@
+# MATLAB autosave files
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+
+# Derived content-obscured files
+*.p
+
+# Compiled MEX files
+*.mex*
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Deployable archives
+*.ctf
+
+# Generated helpsearch folders
+helpsearch*/
+
+# Simulink cache and code generation
+slprj/
+sccprj/
+codegen/
+*.slxc
+cpAnnotation.mat
+
+# HDL Coder output (regenerate with makehdl / the HDL Workflow Advisor)
+hdlsrc/
+hdl_prj/
+work/
+
+# Vivado projects (recreate with vivado/create_project.tcl) and build output
+*.xpr
+*.srcs/
+*.runs/
+*.sim/
+*.cache/
+*.hw/
+*.gen/
+*.ip_user_files/
+.Xil/
+*.jou
+*.log
+*.pb
+*.str
+dfx_runtime.txt
+
+# Cloud based storage dotfile
+.MATLABDriveTag
+
+# buildtool cache folder
+.buildtool/
+
+# Video recordings
+*.mp4
