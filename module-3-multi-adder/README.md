@@ -1,5 +1,9 @@
 # Module 3: Multi-input adder
 
+[Module Link](https://uq.h5p.com/content/1292995458109552369)
+
+[Feedback Link](https://uq.h5p.com/content/1292995472865106909)
+
 This module adds eight 8-bit numbers in Simulink, then uses HDL Coder's reports and Vivado's timing results to see how the adder turns out in hardware.
 
 | File | What it is |
