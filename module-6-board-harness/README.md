@@ -1,5 +1,9 @@
 # Module 6: The board harness in Simulink
 
+[Module Link](https://uq.h5p.com/content/1293026558680034429)
+
+[Feedback Link](https://uq.h5p.com/content/1293026568355747689)
+
 In Module 5, everything on the board apart from the filter was hand-written VHDL. This module moves the signal processing into Simulink so HDL Coder generates it as well, which leaves only the board I/O written by hand.
 
 Besides the add-ons in the main README, you'll need the DSP System Toolbox for the CIC Decimation and Sine Wave blocks, and the Signal Processing Toolbox for `butter`, which `iir_setup` uses. You'll also need Vivado and the board.
