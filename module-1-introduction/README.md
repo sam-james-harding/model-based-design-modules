@@ -1,6 +1,6 @@
 # Module 1: Introduction to HDL Coder
 
-[Module Link](https://uq.h5p.com/content/1292972962838825369)
+[Module Link (containing feedback)](https://uq.h5p.com/content/1292972962838825369)
 
 A first look at HDL Coder, using about the simplest design there is: Y = 2X + 5 on 8-bit unsigned numbers. We build it by hand in VHDL, then in Simulink, then in MATLAB, so you can put HDL Coder's output next to the hand-written version and compare.
 
