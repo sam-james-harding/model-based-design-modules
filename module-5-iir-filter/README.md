@@ -1,5 +1,9 @@
 # Module 5: IIR filter on an FPGA
 
+[Module Link](https://uq.h5p.com/content/1293020532167765339)
+
+[Feedback Link](https://uq.h5p.com/content/1293020586968107759)
+
 The filter here is a second-order Butterworth low-pass, cutting off at 1 kHz with a 48 kHz sample rate. We build it in Simulink, use look-ahead pipelining to get an extra register into its feedback loop, choose a coefficient word length, test it against a double-precision version with an audio clip, and then run it on the Nexys4 using the board's microphone.
 
 Besides the add-ons in the main README, you'll need the Signal Processing Toolbox for `butter`, `freqz` and `resample`. Step 6 also needs Vivado and the board.
