@@ -1,5 +1,9 @@
 # Module 4: CRC-8 error locator
 
+[Module Link](https://uq.h5p.com/content/1293007509100104609)
+
+[Feedback Link](https://uq.h5p.com/content/1293007528057052079)
+
 This design finds a single corrupted pixel in a 32 × 32 greyscale image. It works out a CRC-8 for every row and every column, and compares them with reference CRCs taken from the original image. If one pixel has changed, one row and one column won't match, and that gives you its position.
 
 The design is split into a controller, which is a state machine that decides what happens each clock cycle, and a datapath that does the actual work.
