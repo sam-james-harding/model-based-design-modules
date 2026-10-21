@@ -1,6 +1,6 @@
 # Model-Based Design Modules
 
-This is the code for the CSSE4010 model-based design modules. Each module has its own folder with the MATLAB scripts, Simulink models and VHDL from the videos, so you can follow along or try things yourself.
+This is the code for the CSSE4010 model-based design modules. Each module has its own folder with the MATLAB scripts, Simulink models and VHDL from the videos, so you can follow along or try things yourself. Links to each module in H5P are available in each module's README.
 
 | Module | Description | Vivado | Board |
 |---|---|---|---|
