@@ -1,5 +1,9 @@
 # Module 2: Four-to-four switch
 
+[Module Link](https://uq.h5p.com/content/1292983343774390179)
+
+[Feedback Link](https://uq.h5p.com/content/1292983370232691289)
+
 The switch has four 8-bit inputs, D0 to D3, and four outputs, Y0 to Y3. `sel_in` picks an input and `sel_out` picks which output it goes to, and the other three outputs stay at 0. As in Module 1, we build it in VHDL, MATLAB and Simulink. This time we also run the Simulink version on the board using FPGA-in-the-loop.
 
 | File | What it is |
